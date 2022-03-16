@@ -1,0 +1,204 @@
+body {
+    background: url('../assets/destination/background-destination-desktop.jpg');
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.page-title-container {
+    margin-top: 5.3rem;
+}
+
+.image-container {
+    padding: 6.75rem 0 0 16rem;
+}
+
+.image-container img {
+    max-width: 100%;
+}
+
+/* *************** CONTENT CONTAINER ******************** */
+.content-container {
+    padding: 4.45rem 11.35rem 0 7.8rem;
+}
+
+.dest-navbar {
+    display: flex;
+    column-gap: 36px;
+}
+
+.dest-nav-links {
+    font-family: 'Barlow Condensed';
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    letter-spacing: 2.7px;
+    color: #D0D6F9;
+    cursor: pointer;
+    padding: 12px 0;
+    border-bottom: 3px solid rgba(255, 255, 255, 0);
+}
+
+.dest-nav-links:hover {
+    border-bottom: 3px solid rgba(255, 255, 255, 0.5);
+}
+
+#destinations-name {
+    font-family: 'Bellefair';
+    font-weight: 400;
+    font-size: 100px;
+    line-height: 115px;
+    margin: 37px 0 14px 0;
+}
+
+#destinations-description {
+    font-family: 'Barlow';
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 32px;
+    color: #D0D6F9;
+}
+
+.destinations-details-container {
+    border-top: 1px solid rgba(56, 59, 75, 1);
+    margin-top: 54px;
+    padding: 28px 0;
+    display: flex;
+}
+
+.destinations-details-container p {
+
+    font-family: 'Barlow Condensed';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+    letter-spacing: 2.3625px;
+    text-transform: uppercase;
+    color: #D0D6F9;
+    margin-bottom: 12px;
+}
+
+.destinations-details-container h2 {
+    font-family: 'Bellefair';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 28px;
+    line-height: 32px;
+    text-transform: uppercase;
+}
+
+.travel-time-container {
+    margin: 0 auto 0 auto;
+}
+
+/* ###################### MEDIA QUEARYS ################### */
+/* FOR TABLATE */
+@media screen and (max-width:800px) {
+    .image-container {
+        display: flex;
+        justify-content: center;
+        padding: 7.83rem 0 0 0;
+    }
+
+    .image-container img {
+        width: 300px;
+        height: 300px;
+    }
+
+    .content-container {
+        padding: 7.44rem 12.66rem 4.45rem 12.66rem;
+        text-align: center;
+    }
+
+    .dest-navbar {
+        justify-content: center;
+    }
+
+    #destinations-name {
+        font-size: 80px;
+        line-height: 92px;
+    }
+
+    #destinations-description {
+        font-size: 16px;
+        line-height: 28px;
+    }
+
+    .destinations-details-container {
+        justify-content: space-evenly;
+    }
+
+    .destinations-details-container p {
+        text-align: center;
+    }
+
+    .travel-time-container {
+        margin: 0;
+    }
+}
+
+@media screen and (max-width:455px) {
+    .page-title-container {
+        display: flex;
+        justify-content: center;
+        padding: 0;
+    }
+
+    #page-title {
+        font-size: 4.267rem;
+        line-height: 1.187em;
+        letter-spacing: 0.720rem;
+    }
+
+    .image-container {
+        padding-top: 8.55rem;
+    }
+
+    .image-container img {
+        width: 45.34rem;
+        height: 45.34rem;
+    }
+
+    .content-container {
+        padding: 6.95rem 6.4rem 4.45rem 6.4rem;
+    }
+
+    .dest-navbar {
+        column-gap: 6.95rem;
+    }
+
+    .dest-nav-links {
+        font-size: 3.733rem;
+        line-height: 1.214em;
+        letter-spacing: 0.630rem;
+    }
+
+    #destinations-name {
+        margin: 5.34rem 0 3.74rem 0;
+        font-size: 14.933rem;
+        line-height: 1.143em;
+    }
+
+    #destinations-description {
+        font-size: 4rem;
+        line-height: 1.667em;
+    }
+
+    .destinations-details-container {
+        margin-top: 8.55rem;
+        padding: 8.55rem 0;
+        flex-direction: column;
+        row-gap: 8.55rem;
+    }
+
+    .destinations-details-container p {
+        font-size: 3.733rem;
+        line-height: 1.214em;
+        letter-spacing: 0.630rem;
+    }
+
+    .destinations-details-container h2 {
+        font-size: 7.467rem;
+        line-height: 1.143em;
+    }
+}
