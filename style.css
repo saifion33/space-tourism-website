@@ -1,0 +1,343 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 1vw;
+    color: var(--primary-color);
+}
+
+:root {
+    --primary-color: white;
+}
+
+body {
+    background: url('./assets/home/background-home-desktop.jpg');
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+/* ########################################## NAVBAR STYLING START FROM HERE ######################################## */
+header {
+    display: initial;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    padding: 2.8rem 0 0 3.8rem;
+    position: relative;
+}
+
+#navbar-line {
+    width: 34rem;
+    height: 1px;
+    display: block;
+    background: #ffffff;
+    opacity: 0.25;
+    margin-left: 9rem;
+    z-index: 1;
+    position: absolute;
+    flex-basis: 0;
+}
+
+.menu-icon-container {
+    display: none;
+}
+.menu-icon-container img{
+    cursor: pointer;
+}
+.nav-link-primary-container {
+    margin-left: auto;
+}
+
+.nav-links-container {
+    display: flex;
+    background: rgba(255, 255, 255, 0.04);
+    backdrop-filter: blur(81.5485px);
+    column-gap: 3.3rem;
+    padding: 0 11.51rem 0 8.52rem;
+    z-index: 0;
+}
+
+.close-menu-icon-container {
+    display: none;
+}
+.close-menu-icon-container img{
+    cursor: pointer;
+}
+
+.nav-links {
+    font-family: 'Barlow Condensed', 'sans-serif';
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    letter-spacing: 2.7px;
+    cursor: pointer;
+    padding: 2.6rem 0 2.6rem 0;
+    border-bottom: 3px solid rgba(255, 255, 255, 0);
+    white-space: nowrap;
+    transition: border 0.3s ease-in;
+}
+
+.nav-links:hover {
+    border-bottom: 3px solid rgba(255, 255, 255, 1);
+}
+
+.nav-links span {
+    font-weight: 700;
+}
+
+/* ************************ NAVBAR STYLING END HERE ************************************************** */
+.container {
+    display: flex;
+}
+
+.content-container, .image-container {
+    width: 50%;
+}
+
+.content-container {
+    padding: 17.5rem 0 9.14rem 11.5rem;
+}
+
+.content-container h2 {
+    font-family: 'Barlow Condensed';
+    font-weight: 400;
+    font-size: 28px;
+    line-height: 34px;
+    letter-spacing: 4.725px;
+    color: #D0D6F9;
+    text-transform: uppercase;
+}
+
+.content-container h1 {
+    font-family: 'Bellefair';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 150px;
+    line-height: 172px;
+    padding-top: 24px;
+}
+
+.content-container p {
+    font-family: 'Barlow';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 32px;
+    color: #D0D6F9;
+    padding: 24px 8.2rem 0 0;
+}
+
+.image-container {
+    padding: 25rem 0 9.14rem calc(26.9rem - 118px);
+}
+
+#oval {
+    width: 274px;
+    height: 274px;
+    background: #ffffff;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+#oval::before {
+    content: '';
+    width: 0;
+    height: 0;
+    border-radius: 50%;
+    background: rgba(255, 255, 255, 1);
+    opacity: 0.1;
+    position: absolute;
+    pointer-events: none;
+    transition: all 0.8s ease-in;
+}
+
+#oval:hover::before {
+    width: 450px;
+    height: 450px;
+}
+
+#oval h2 {
+    font-family: 'Bellefair';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 37px;
+    letter-spacing: 2px;
+    color: #0B0D17;
+
+}
+
+/* ################################################### MEDIA QUEARYES ##################################### */
+@media screen and (max-width:800px) {
+    body {
+        background: url('./assets/home/background-home-tablet.jpg');
+        background-size: cover;
+        background-attachment: fixed;
+    }
+
+    /* *********************** NAVBAR STYLING ************************************************ */
+    .nav-links {
+        font-size: 14px;
+        line-height: 17px;
+        letter-spacing: 2.3625px;
+    }
+
+    .nav-links span, #navbar-line {
+        display: none;
+    }
+
+    /* ***********************CONTAINER STYLING ************************************************ */
+    .container {
+        flex-direction: column;
+    }
+
+    .content-container, .image-container {
+        width: 100%;
+    }
+
+    /* *********************** CONTENT CONTAINER STYLING ************************************************ */
+    .content-container {
+        padding: 13rem 0;
+        text-align: center;
+    }
+
+    .content-container h2 {
+        font-size: 20px;
+        line-height: 24px;
+        letter-spacing: 3.375px;
+    }
+
+    .content-container h1 {
+        line-height: 150px;
+    }
+
+    .content-container p {
+        padding: 0 21.5rem;
+        font-size: 16px;
+        line-height: 28px;
+    }
+
+    /* *********************** IMAGE CONTAINER STYLING ************************************************ */
+    .image-container {
+        display: flex;
+        justify-content: center;
+        padding: calc(20.3rem - 100px)0;
+    }
+
+    #oval {
+        width: 242px;
+        height: 242px;
+    }
+
+    #oval:hover:before {
+        width: 420px;
+        height: 420px;
+    }
+}
+
+@media screen and (max-width:455px) {
+    body {
+        background: url('./assets/home/background-home-mobile.jpg');
+        background-size: cover;
+        background-attachment: fixed;
+    }
+
+    /* *************** navbar styling   ******************** */
+    .logo-container img {
+        width: 40px;
+        height: 40px;
+    }
+
+    .menu-icon-container {
+        display: block;
+        margin: 0 6.5rem 0 auto;
+    }
+
+    .nav-link-primary-container {
+        position: fixed;
+        top: 0;
+        right: 0;
+        width: 50%;
+        transform: translateX(100%);
+        transition: all 0.3s linear;
+    }
+
+    .nav-links-container {
+        width: 100%;
+        position: sticky;
+        top: 0;
+        right: 0;
+        height: 90vh;
+        flex-direction: column;
+        padding: 0;
+    }
+
+    .nav-links {
+        width: max-content;
+        font-size: 4.267rem;
+        line-height: 1.17em;
+        letter-spacing: 0.7rem;
+        margin-left: 4rem;
+    }
+
+    .nav-links span {
+        display: inline;
+    }
+
+    .close-menu-icon-container {
+        display: block;
+        width: 100%;
+        display: flex;
+        justify-content: flex-end;
+        padding: 4rem 6rem;
+        
+    }
+
+    /* content container styling */
+    .content-container h2 {
+        font-size: 4.267rem;
+        line-height: 1.187em;
+        letter-spacing: 0.720rem;
+    }
+
+    .content-container h1 {
+        font-size: 21.333rem;
+        line-height: 1.250em;
+        padding-top: 4rem;
+    }
+
+    .content-container p {
+        font-size: 4rem;
+        line-height: 1.667em;
+        padding: 4rem 7rem;
+    }
+
+    /* imgae-container */
+    .image-container {
+        padding: 20rem 0;
+    }
+
+    #oval {
+        width: 40rem;
+        height: 40rem;
+    }
+
+    #oval:hover::before {
+        width: 60rem;
+        height: 60rem;
+    }
+
+    #oval h2 {
+        font-size: 5.333rem;
+        line-height: 1.150em;
+        letter-spacing: 0.333rem;
+    }
+}
