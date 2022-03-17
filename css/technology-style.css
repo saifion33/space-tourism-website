@@ -35,8 +35,16 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
+    cursor: pointer;
 }
-
+.tech-nav-links:hover{
+    border: 1px solid rgba(255, 255, 255, 1);
+}
+.tech-active-link{
+    background: #ffffff;
+    color: rgba(11, 13, 23, 1);
+    
+}
 .terminology {
     font-family: 'Barlow Condensed';
     font-style: normal;
