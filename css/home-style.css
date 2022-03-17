@@ -1,5 +1,5 @@
 body {
-    background: url('./assets/home/background-home-desktop.jpg');
+    background: url('../assets/home/background-home-desktop.jpg');
     background-size: cover;
     background-attachment: fixed;
 }
@@ -84,7 +84,7 @@ body {
 /* FOR TABLATE */
 @media screen and (max-width:800px) {
     body {
-        background: url('./assets/home/background-home-tablet.jpg');
+        background: url('../assets/home/background-home-tablet.jpg');
         background-size: cover;
         background-attachment: fixed;
     }
@@ -130,7 +130,7 @@ body {
 /* **************************** FOR SMARTPHONES ******************************************* */
 @media screen and (max-width:455px){
     body {
-        background: url('./assets/home/background-home-mobile.jpg');
+        background: url('../assets/home/background-home-mobile.jpg');
         background-size: cover;
         background-attachment: fixed;
     }
