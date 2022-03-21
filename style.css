@@ -117,7 +117,8 @@ nav {
 .content-container, .image-container {
     width: 50%;
 }
-.active-link{
+
+.active-link {
     border-bottom: 3px solid rgba(255, 255, 255, 1);
 }
 
@@ -202,17 +203,26 @@ nav {
         position: sticky;
         top: 0;
         right: 0;
-        height: 90vh;
+        height: 100vh;
         flex-direction: column;
         padding: 0;
     }
 
     .nav-links {
-        width: max-content;
+        width: 90%;
         font-size: 4.267rem;
         line-height: 1.17em;
         letter-spacing: 0.7rem;
         margin-left: 4rem;
+        border-bottom: none;
+    }
+    .nav-links:hover{
+        border-right: 1.2rem solid rgba(255, 255, 255, 0.5);
+        border-bottom: none;
+    }
+    .active-link {
+        border-right:1.2rem solid rgba(255, 255, 255, 1);
+        border-bottom: none;
     }
 
     .nav-links span {

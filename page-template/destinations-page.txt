@@ -1,0 +1,28 @@
+<div class="page-title-container">
+      <h1 id="page-title"><span>01</span> pick your destination</h1>
+</div>
+<div class="container">
+    <div class="image-container">
+        <img id="destinations-image" src="" alt="destinations image">
+    </div>
+    <div class="content-container">
+        <div class="dest-navbar">
+          <p class="dest-nav-links" id="0">MOON</p>
+          <p class="dest-nav-links" id="1">MARS</p>
+          <p class="dest-nav-links" id="2">EUROPA</p>
+          <p class="dest-nav-links" id="3">TITAN</p>
+        </div>
+        <h1 id="destinations-name"></h1>
+        <p id="destinations-description"></p>
+        <div class="destinations-details-container">
+          <div class="distance-container">
+            <p>Avg. distance</p>
+            <h2 id="destinations-distance"></h2>
+          </div>
+          <div class="travel-time-container">
+            <p>Est. travel time</p>
+            <h2 id="destinations-travel"></h2>
+          </div>
+        </div>
+    </div>
+</div>
