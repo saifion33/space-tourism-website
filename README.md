@@ -14,8 +14,10 @@ This is a solution to the [space tourism website challenge on Frontend Mentor](h
 
 ### Screenshot
 
-![space tourism websit screenshot](https://github.com/saifion33/space-tourism-website/blob/master/screenshots/desktop%20home.png)
-
+![space tourism home page screenshot](https://github.com/saifion33/space-tourism-website/blob/master/screenshots/desktop%20home.png)
+![space tourism destinations page screenshot](https://github.com/saifion33/space-tourism-website/blob/master/screenshots/destination-desktop.png)
+![space tourism crew page screenshot](https://github.com/saifion33/space-tourism-website/blob/master/screenshots/crew-desktop.png)
+![space tourism technology page screenshot](https://github.com/saifion33/space-tourism-website/blob/master/screenshots/technology-desktop.png)
 
 
 ### Links
