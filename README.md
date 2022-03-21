@@ -22,7 +22,7 @@ This is a solution to the [space tourism website challenge on Frontend Mentor](h
 
 ### Links
 
-- Solution : [solution on frontend menter]()
+- Solution : [solution on frontend menter](https://www.frontendmentor.io/solutions/space-tourism-website-using-pure-html-css-javascript-cX2pWR6EO)
 - Live Site : [See live preview](https://saifion33.github.io/space-tourism-website/)
 
 ## My process
