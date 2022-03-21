@@ -5,7 +5,8 @@ body {
 }
 
 .content-container {
-    padding: 10.695rem 0 0 11.565rem;
+    padding: 10.695rem 0 0 11.5rem;
+    width: 55%;
 }
 
 #crew-role {
@@ -35,7 +36,7 @@ body {
     font-size: 18px;
     line-height: 32px;
     color: #D0D6F9;
-    padding-right: 8.74rem;
+    padding-right: 9rem;
 }
 
 .crew-navbar {
@@ -51,14 +52,16 @@ body {
     display: block;
     border-radius: 50%;
     cursor: pointer;
+    color: #0B0D17;
 }
 
 .crew-nav-links:hover {
     background: rgba(255, 255, 255, 0.5);
 }
 
-.crew-active-link {
-    background: rgba(255, 255, 255, 1);
+.active-crew-link {
+  background: rgba(255, 255, 255, 1);
+  color: #0B0D17;
 }
 
 /* ********************************** IMAGE CONTAINER ****************************************** */

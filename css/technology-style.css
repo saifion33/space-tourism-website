@@ -20,7 +20,7 @@ body {
     row-gap: 32px;
 }
 
-.tech-nav-links {
+.technology-nav-links{
     font-family: 'Bellefair';
     font-style: normal;
     font-weight: 400;
@@ -37,12 +37,12 @@ body {
     align-items: center;
     cursor: pointer;
 }
-.tech-nav-links:hover{
+.technology-nav-links:hover{
     border: 1px solid rgba(255, 255, 255, 1);
 }
-.tech-active-link{
-    background: #ffffff;
-    color: rgba(11, 13, 23, 1);
+.active-technology-link{
+    background: rgba(255, 255, 255, 1);
+    color: #0B0D17;
     
 }
 .terminology {

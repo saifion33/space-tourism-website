@@ -13,8 +13,8 @@ html {
     --primary-color: white;
 }
 
-
 /* ########################################## NAVBAR STYLING START FROM HERE ######################################## */
+
 header {
     display: initial;
 }
@@ -117,7 +117,9 @@ nav {
 .content-container, .image-container {
     width: 50%;
 }
-
+.active-link{
+    border-bottom: 3px solid rgba(255, 255, 255, 1);
+}
 
 /* ################################################### MEDIA QUEARYES ##################################### */
 @media screen and (max-width:800px) {

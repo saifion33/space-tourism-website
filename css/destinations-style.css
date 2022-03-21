@@ -45,6 +45,7 @@ body {
     font-size: 100px;
     line-height: 115px;
     margin: 37px 0 14px 0;
+    text-transform: uppercase;
 }
 
 #destinations-description {
@@ -87,7 +88,9 @@ body {
 .travel-time-container {
     margin: 0 auto 0 auto;
 }
-
+.active-destinations-link{
+    border-bottom:3px solid rgba(255, 255, 255, 1);
+}
 /* ###################### MEDIA QUEARYS ################### */
 /* FOR TABLATE */
 @media screen and (max-width:800px) {
