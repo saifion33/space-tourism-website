@@ -14,7 +14,7 @@ This is a solution to the [space tourism website challenge on Frontend Mentor](h
 
 ### Screenshot
 
-![space tourism websit screenshot](https://github.com/saifion33/advice-generator-app/blob/main/images/Screenshot%20%20Advice%20Generator.png)
+![space tourism websit screenshot](https://github.com/saifion33/space-tourism-website/blob/master/screenshots/desktop%20home.png)
 
 
 
