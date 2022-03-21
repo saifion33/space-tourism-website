@@ -81,7 +81,7 @@ nav {
 }
 
 .nav-links:hover {
-    border-bottom: 3px solid rgba(255, 255, 255, 1);
+    border-bottom: 3px solid rgba(255, 255, 255, 0.5);
 }
 
 .nav-links span {
@@ -217,7 +217,6 @@ nav {
         border-bottom: none;
     }
     .nav-links:hover{
-        border-right: 1.2rem solid rgba(255, 255, 255, 0.5);
         border-bottom: none;
     }
     .active-link {
