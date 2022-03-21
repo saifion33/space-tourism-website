@@ -91,6 +91,8 @@ body {
 
     .image-container {
         padding: 60px 0 0 0;
+        display: flex;
+        justify-content: center;
     }
 
     .image-container img {
@@ -145,13 +147,13 @@ body {
 
 @media screen and (max-width:455px) {
     .content-container{
-        padding: 0 6.4rem;
+        padding: 0 6.4rem 8rem 6.4rem;
     }
     .tech-navbar{
         margin-top: 9rem;
         column-gap: 4.26rem;
     }
-    .tech-nav-links {
+    .technology-nav-links {
         width: 10.66rem;
         height: 10.66rem;
         font-size: 4.267rem;

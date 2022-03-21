@@ -73,6 +73,7 @@ body {
 /* FOR TABLATE  */
 @media screen and (max-width:800px) {
     .content-container, .image-container {
+        width: 100%;
         padding: 0 20.18rem;
     }
 
@@ -128,7 +129,7 @@ body {
     }
 
     .image-container {
-        
+        width: 100%;
         padding: 8.55rem 0 0 0;
         align-items: flex-end;
         border-bottom: 1px solid #383B4B;
@@ -140,6 +141,7 @@ body {
     }
 
     .content-container {
+        width: 100%;
         display: flex;
         flex-direction: column-reverse;
         padding: 8.54rem 6.4rem 0 6.4rem;
