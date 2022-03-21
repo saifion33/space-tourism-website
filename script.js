@@ -80,7 +80,7 @@ function menuHider() {
     // show hamburger menu
     menuIcon.style.display = 'block';
     // remove event listener
-    body.removeEventListener('click',navbarOutClicklistener);
+    body.removeEventListener('click', navbarOutClicklistener);
 }
 
 // Add click event listner on hamburger icon and call menuDisplayer function
@@ -117,11 +117,11 @@ function pageContentChanger(data, clickedLinkId, pageName, pageSpecificArgs) {
     /* check pageName because technology page images saved as portrait and landscape
     other page image saved as png and webp name in data.json file */
     if (pageName == 'technology') {
-        if (screen.width>800) {
-            image.setAttribute('src',data.images.portrait)
+        if (screen.width > 800) {
+            image.setAttribute('src', data.images.portrait)
         }
         else {
-            image.setAttribute('src',data.images.landscape)
+            image.setAttribute('src', data.images.landscape)
         }
     }
     else {
@@ -158,9 +158,9 @@ function pageContentFetcher(pageName, clickedLinkId, pageSpecificArgs) {
 ****************************************************************************************************************/
 
 // ********************************** HOME FUNCTION **********************************************************
-// There is no need of this function this function for counter a small problem
 function home() {
-    console.log('home function called')
+    // get oval shape to redirect user to destinations
+    document.getElementById('oval').addEventListener('click', () => mainContentFetcher('destinations'))
 }
 
 // ********************************** DESTINATIONS FUNCTION ****************************************************
